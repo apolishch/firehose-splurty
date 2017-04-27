@@ -1,4 +1,6 @@
 @import "bootstrap";
+/* @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch'); */
+
 
 .clear {
   clear: both;
@@ -16,19 +18,19 @@
   margin: 10px 10px;
   text-align: center;
   color: #FFF;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 16px;
   cursor: pointer;
-  transform: rotate(9deg);
-  -ms-transform: rotate(9deg); /* IE 9 */
-  -webkit-transform: rotate(9deg); /* Opera, Chrome, and Safari */
+  transform: rotate(11deg);
+  -ms-transform: rotate(11deg); /* IE 9 */
+  -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'laconiclight', serif;
   font-style: italic;
-  font-size: 18px;
-  padding-top: 32px;
+  font-size: 16px;
+  padding-top: 28px;
 }
 
 .links {
@@ -37,8 +39,10 @@
 
 .links a {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'tensoregular', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -47,4 +51,19 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'laconicregular', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+/* font-family: 'Cabin Sketch', cursive; */
+/* font-family: "Helvetica Neue", Helvetica, sans-serif;
+font-weight: 600;
+letter-spacing: -1.5px; */
+}
+
+h2 {
+  font-family: 'tensoregular', sans-serif;
+  font-style: italic;
 }
