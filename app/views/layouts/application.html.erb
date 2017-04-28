@@ -11,20 +11,22 @@
   <body>
     <header class="row align-items-center">
       <div class="col-4">
-        <div class="circle">
-        <br />
-        The FUTURE
-        <br />
-        is already
-        <br />
-        HERE
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            The FUTURE
+            <br />
+            is already
+            <br />
+            HERE
+          </div>
+        <% end %>
       </div>
       <div class="col-5 slogan">
         Random Accelerando wit since 2017
       </div>
       <div class="col-3 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -41,7 +43,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-6">
-            <%= link_to "Tell me more", "#", class: 'next-quote' %>
+            <%= link_to "Tell me more", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
             Proudly hacked in London, UK, by <a href="https://github.com/cldambrosio" target="_blank">Claire D'Ambrosio</a><br />
