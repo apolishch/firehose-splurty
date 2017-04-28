@@ -34,7 +34,7 @@
 
 .links a {
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   border-bottom: 1px solid #dfdfdf;
   font-family: 'tensoregular', sans-serif;
   font-weight: bold;
@@ -61,20 +61,21 @@ letter-spacing: -1.5px; */
 h2 {
   font-family: 'tensoregular', sans-serif;
   font-style: italic;
+  font-size: 28px;
 }
 
 .next-quote {
   color: #f84342;
   font-family: 'tensoregular', sans-serif;
   font-style: italic;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .footer-blurb {
   font-family: 'laconiclight', serif;
   font-style: italic;
   text-align: right;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .logo:hover {
@@ -83,4 +84,37 @@ h2 {
 
 .about {
   font-family: 'tensoregular', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'tensoregular', sans-serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'laconicregular', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+/*Placeholder Color*/
+.form-control::-webkit-input-placeholder {
+color: #dddddd;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+color: #dddddd;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+color: #dddddd;
+}
+.form-control:-ms-input-placeholder {
+color: #dddddd;
 }
